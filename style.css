@@ -12,7 +12,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('img/bg2.jpg') no-repeat;
+    background: url('img/bg1.jpg') no-repeat;
     background-size: cover;
 }
 
@@ -82,3 +82,16 @@ header{
     color: #162938;
 }
 
+.wrapper{
+    position: relative;
+    width: 400px;
+    height: 440px;
+    background: transparent;
+    border: 2px solid rgba(225, 225, 225, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
